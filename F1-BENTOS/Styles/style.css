@@ -1,0 +1,412 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+
+
+}
+/*______________________________________inicio_______________________*/
+.logo{
+    width: 80%;
+    height: 11vh;
+    padding-top: 6%;
+}
+
+
+.body{
+    background-color: rgb(10, 9, 9);
+    color: azure;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-around;
+}
+
+.navbar{
+        padding-bottom: 5px;
+        display: flex;
+        align-items :flex-end;
+
+
+}
+.menu{
+    display: flex;
+    list-style-type:none;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    gap: 25px;
+
+}
+
+video{
+    height: 95%;
+    width: 96%;
+   padding-top: 1%;
+   padding-left: 2%;
+}
+
+
+footer{
+    font-size: 40px;
+text-align: center;
+background-color:aliceblue;
+color: black;
+box-sizing: border-box;
+padding-top: 10px;
+height: 70px;
+
+}
+
+.noticia{
+    color: rgb(10, 10, 10);
+    text-align: center;
+    margin-top: 3%;
+    background-color: aliceblue;
+    font-size: 400%;
+
+}
+
+/* ________________________________________________inicio__________________________________________________*/ 
+
+
+/*______________________________________________________________tabla__________________________________________________*/
+.img__tabla{
+    width: 300px;
+    height: 200px;
+}
+
+section h2{
+font-size: 38px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+section h6{
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+section p{
+     font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+
+}
+
+
+.hr2{
+    margin-top: 30px;
+
+}
+
+
+
+
+
+article{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+.campeonato__titulo{
+    background-color: aliceblue;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tableta{
+    border-collapse:collapse;
+    margin-left: 25%;
+    box-sizing: border-box white 2px;
+    
+}
+ 
+table tr{
+    font-size: 50px;   
+
+}
+
+table img{
+    width: 300px;
+    height: 200px;
+    background-color:rgb(10, 9, 9);
+}
+
+.auto{
+    height: 100%;
+    max-width: 100vh;
+    }
+
+
+
+.top5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 300px;
+    background-color: brown;
+}
+/*______________________________________tabla_________________________________________________________*/
+
+/*_________________________________________________________________campeonato__________________________________*/
+ form{
+    font-size: 30px;
+    display: flex;
+    flex-direction:column;
+    /**box-sizing: border-box;*/
+    padding-top: 30px;
+    padding-left: 30px;
+
+ }
+
+.tarjetitas{
+    padding: 2%;
+    display: flex; 
+    gap: 3%;
+   flex-wrap: wrap;
+  /* align-content: space-between*/
+
+}
+
+.tarjetita{
+    background-color: rgba(153, 13, 13, 0.534);
+    border-radius: 25px;
+    overflow-wrap: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 3%;
+    padding-bottom: 1%;
+    transition: all 0.3s;
+  
+    
+
+}
+
+.tarjetita__imagen{
+      width: 500px;
+      height: 55%;
+      margin: 10px;
+      border-radius: 25px;
+
+}
+
+h4{
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+
+.tarjetita:hover{
+    transform: scale(1.1) translateY(-1%);
+    box-shadow: rgb(113, 146, 180) 0px 20px 30px -10px;
+    
+
+
+
+}
+
+/*.campeonato{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+}*/
+
+/*__________________________________________pilotos_______________________________*/
+
+.data-aos{
+    animation-delay: 1s;
+}
+
+.container-fluid {
+
+    width: 100%;
+    height: 100%;
+    margin-bottom: 1%;
+}
+
+.navbar-collapse {
+    flex-direction: row-reverse;
+    flex-basis: auto;
+    font-size: x-large; 
+    padding-right: 6%;
+}
+.contenedor{
+    
+    padding: 20px;
+    grid-gap: 3px;
+    display: grid;
+    width: 98%;
+    margin: 0 auto;
+    background-color: rgb(58, 4, 4);
+    border: 1px solid red;
+    grid-template-columns: auto 33% 33%;
+    grid-template-rows: auto auto 22% ; 
+    grid-template-areas:
+    "escuderia piloto1 piloto2" 
+    "nota piloto1 piloto2  "
+    " nota text1 text2"
+    
+}
+
+.escuderia{
+    grid-area: escuderia ;
+    
+}
+.piloto1{
+    grid-area:piloto1;
+    
+}
+.piloto2{
+    grid-area: piloto2;
+    
+}
+.nota{
+    padding-top: 20px;
+    grid-area: nota;
+    color: aliceblue;
+    font-size: 26px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.89);
+    
+}
+
+.piloto1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+   
+}
+
+
+.ferrari{
+    width:100%;
+    height: 33vh;
+    object-fit: cover;
+    
+    
+}
+
+.piloto2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    color: aliceblue;
+    font-size: 40px;
+    text-align:left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.89);
+    
+   
+
+}   
+
+
+
+
+.Nombre_escuderia{
+    font-size: 80px;
+    padding-left: 80px;
+    background-color: aliceblue;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.gridNombre{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.gridNombre p{
+   /* text-align: center;*/
+    margin-top: 50px;
+}
+
+.casco_img{
+    width: 220px
+
+}
+
+
+/*______________________________________PILOTOS______________________________*/
+
+@media (max-width: 1220px){
+    .casco_img{
+        width: 0px;
+        height: 0px;
+    }
+
+    .gridNombre{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 960px){
+    .Nombre_escuderia{
+        height: 0px;
+        width: 0px;
+        font-size: 0px;
+    }
+
+
+
+}
+
+@media( max-width: 765px){
+    .contenedor{
+        
+        grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr  ; 
+    grid-template-areas:
+    "escuderia  escuderia " 
+    "nota   nota"
+    " piloto1 piloto2"
+}
+.text p{
+    margin-top: -45px;
+}
+
+}
+/*____________________________inicio____________________________________*/
+
+@media(max-width:1135px){
+    .tarjetitas{
+        display: table-column;
+        margin: 5%;
+    }
+    .tarjetita__imagen{
+        width:  98%;
+        height: 50%;
+        padding-top: 10%;
+        border-radius: 0%;
+    }
+}
+
+/*______________campeonato_________________________*/
+ @media(max-width:1214px){
+    .tableta{
+        margin-left: 12%;
+    }
+
+
+ }

@@ -1,0 +1,27 @@
+.body{
+    margin: 0;
+    background: rgb(10, 9, 9);
+}
+.form{width:340px;height:440px;background: rgb(243, 243, 243);border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
+h2{margin:10px 0;padding-bottom:10px;width:180px;color:#0f0f0f;border-bottom:3px solid #070707}
+input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #1919df}
+
+p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#0c0c0c}
+button{float:right;padding:8px 12px;margin:8px 0 0;font-family:'Montserrat',sans-serif;border:2px solid #101011;background:0;color:#0a0a0a;cursor:pointer;transition:all .3s}
+button:hover{background:#080808;color:rgb(233, 10, 10)}
+
+span{margin:0 5px 0 15px}
+.logo{
+    width: 80%;
+    height: 11vh;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+footer{
+    font-size: 40px;
+text-align: center;
+background-color:aliceblue;
+color: black;
+box-sizing: border-box;
+padding-top: 10px;
+height: 70px; }
